@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: pink;
+  padding: 30px;
+}
+header nav {
+  width: 80%;
+  margin: 0 auto;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+header nav ul li {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: blue;
+}
+
+.productos h2 {
+  color: red;
+  font-size: large;
+}
+.productos p {
+  font-family: "Times New Roman", Times, serif;
+  color: coral;
+  font-size: medium;
+}
+
+.nosotros h2 {
+  color: blue;
+  font-size: large;
+}
+.nosotros p {
+  font-family: "Times New Roman", Times, serif;
+  color: crimson;
+  font-size: medium;
+}
+
+.titulo {
+  background-color: #00ffff;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  padding: 40px;
+}/*# sourceMappingURL=style.css.map */
